@@ -1,0 +1,16 @@
+/* declarar una variable de colores y fuentes */
+:root{
+    /* fuentes */
+    --titulos: 'Gloria Hallelujah', cursive;
+    --parrafo: 'Gloria Hallelujah', cursive;
+    /* colores corporativos */
+    --encabezado: rgb(10, 150, 108);
+    --piedepagina: #11725d;
+    --enlace: rgb(120, 245, 182);
+    --enlacesobre: rgb(250, 227, 17);
+
+}
+/* configuracion global */
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--titulos);
+}
